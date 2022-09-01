@@ -1,0 +1,26 @@
+{
+  "name": "@devoinc/dali-base-styles",
+  "version": "1.0.0",
+  "description": "The official Dali styles repository.",
+  "scripts": {
+    "build": "npm run build:scss && npm run build:uglify && npm run build:fonts",
+    "build:scss": "sass scss/styles.scss dist/styles.css",
+    "build:uglify": "uglifycss dist/styles.css > dist/styles.min.css",
+    "build:fonts": "cp -r scss/fonts dist/",
+    "clean": "rm -rf dist",
+    "dist": "npm run clean && npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.devotools.com:teams/activeboards/quvis/dali-base-styles.git"
+  },
+  "author": "Devo Inc.",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.8",
+    "uglifycss": "^0.0.29"
+  }
+}
