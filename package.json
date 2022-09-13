@@ -16,6 +16,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git@gitlab.devotools.com:teams/activeboards/quvis/dali-base-styles.git"
