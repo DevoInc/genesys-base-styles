@@ -9,7 +9,7 @@
     "build:fonts": "cp -r scss/fonts dist/",
     "clean": "rm -rf dist",
     "dist": "npm run clean && npm run build",
-    "release:ci": "release-it --ci",
+    "release:ci": "release-it --ci"
   },
   "files": [
     "dist"
