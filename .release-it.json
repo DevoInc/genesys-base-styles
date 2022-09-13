@@ -16,5 +16,8 @@
   },
   "npm": {
     "allowSameVersion": true
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
