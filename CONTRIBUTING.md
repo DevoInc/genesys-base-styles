@@ -1,84 +1,19 @@
-# Contributing to vizco
+# Contributing
 
-Thanks for taking the time to contribute! 😄
+Please ensure you have read the [Code of Conduct](./CODE_OF_CONDUCT.md) before making any contribution.
 
-## Code of Conduct
+## How to contribute
 
-All contributors are expecting to abide by our [Code of
-Conduct](CODE_OF_CONDUCT.md).
+Contributions are made by opening pull requests from a forked copy of the repo. See detailed instructions below.
 
-## Table of Contents
-
-- [Requirements](#requirements)
-- [Getting Started](#getting-started)
-  - [Clone repo](#clone-repo)
-  - [Install dependencies](#install-dependencies)
-- [Committing Code](#committing-code)
-  - [Committing message](#committing-message)
-
-## Requirements
-
-You must have the following installed on your system to contribute locally:
-
-- [Node.js](https://nodejs.org/en/): Version of **node >= 14.18.1**.
-- [Npm.js](https://www.npmjs.com/): Version of **npm >= 7.24.2**.
-
-Info! Before installing anything you can check if you
-already have it on your system and what versions you have by running this
-command:
-
-```sh
-node -v; npm -v
-//v14.18.1
-//v7.24.2
-```
-
-## Getting Started
-
-### Clone repo
-
-```sh
-git clone git@github.com:DevoInc/dali-base-styles.git
-```
-
-### Install dependencies
-
-```sh
-# Go into the repository
-cd dali-base-styles
-
-# Install dependencies
-npm ci
-```
-
-### Build the dist directory with the SCSS resources
-
-```sh
-npm run build
-```
-
-## Committing Code
-
-In this project we use continuos integration. The repository is setup with a
-single **master** branch, with the already published Dali styles.
-
-### Committing message
-
-Follow [coventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
-
-For example:
-
-```sh
-fix: lorem ipsum...
-```
-
-There are certain points to keep in mind in order to have common messages among
-all team members:
-
-- **Scope of the commit is always in lower case**. For example:
-
-```sh
-fix(scope): lorem ipsum...
-
-fix(scope): lorem ipsum...
-```
+- Create a fork from the project on [Github](https://github.com/devoinc/dali-tokens).
+- Clone the fork on your local machine.
+- Add the original repository as remote `upstream`.
+- Create a new `feat/` branch from `master`.
+- Commit messages should follow the [conventional commits specification](https://www.conventionalcommits.org/en/v1.0.0/).
+- Write or update tests if needed. `npm run stryker` can help you reach a better test coverage ([stryker-mutator](https://stryker-mutator.io/)).
+- Write or update documentation if needed.
+- Make sure `npm run test` and `npm run lint` pass.
+- Push your branch to your fork (`origin`).
+- Open a pull request from your fork targeting the project's `master` branch.
+- Wait for the pull request to be approved and merged and pull the changes from the `upstream` remote.
