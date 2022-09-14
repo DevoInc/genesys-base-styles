@@ -11,6 +11,7 @@ on:
           - minor
           - patch
           - auto
+          - dryRun
         default: auto
         required: true
 
@@ -62,3 +63,7 @@ jobs:
       - name: Publish auto
         if: ${{ github.event.inputs.version == 'auto' }}
         run: npm run release:ci
+      
+      - name: Publish dryRun
+        if: ${{ github.event.inputs.version == 'dryRun' }}
+        run: npm run release
