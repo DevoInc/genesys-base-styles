@@ -3,7 +3,18 @@
     "@release-it/conventional-changelog": {
       "preset": "conventionalcommits",
       "infile": "CHANGELOG.md",
-      "header": "# Changelog"
+      "header": "# Changelog",
+      "types": [
+        {
+          "type": "feat",
+          "section": "Features"
+        },
+        {
+          "type": "fix",
+          "section": "Bug Fixes"
+        },
+        {}
+      ]
     }
   },
   "github": {
