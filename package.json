@@ -1,6 +1,6 @@
 {
   "name": "@devoinc/genesys-base-styles",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "The official Genesys styles repository.",
   "scripts": {
     "build": "npm run build:scss && npm run build:uglify && npm run build:fonts",
