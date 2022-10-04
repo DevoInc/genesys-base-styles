@@ -1,7 +1,7 @@
 {
-  "name": "@devoinc/dali-base-styles",
+  "name": "@devoinc/genesys-base-styles",
   "version": "1.0.2",
-  "description": "The official Dali styles repository.",
+  "description": "The official Genesys styles repository.",
   "scripts": {
     "build": "npm run build:scss && npm run build:uglify && npm run build:fonts",
     "build:scss": "sass scss/styles.scss dist/styles.css",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.devotools.com:teams/activeboards/quvis/dali-base-styles.git"
+    "url": "git@gitlab.devotools.com:teams/activeboards/quvis/genesys-base-styles.git"
   },
   "author": "Devo Inc.",
   "license": "ISC",

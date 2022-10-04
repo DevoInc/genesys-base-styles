@@ -1,6 +1,6 @@
-# dali-base-styles
+# genesys-base-styles
 
-The official Dali base styles repository.
+The official Genesys base styles repository.
 
 ## Quick start
 
