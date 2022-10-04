@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.devotools.com:teams/activeboards/quvis/genesys-base-styles.git"
+    "url": "git@github.com:DevoInc/genesys-base-styles.git"
   },
   "author": "Devo Inc.",
   "license": "ISC",
