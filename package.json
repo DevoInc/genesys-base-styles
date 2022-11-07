@@ -3,10 +3,11 @@
   "version": "1.1.1",
   "description": "The official Genesys styles repository.",
   "scripts": {
-    "build": "npm run build:scss && npm run build:uglify && npm run build:fonts",
-    "build:scss": "sass scss/styles.scss dist/styles.css",
+    "build": "npm run build:css && npm run build:uglify && npm run build:fonts && npm run build:scss",
+    "build:css": "sass scss/styles.scss dist/styles.css",
     "build:uglify": "uglifycss dist/styles.css > dist/styles.min.css",
     "build:fonts": "cp -r scss/fonts dist/",
+    "build:scss": "cp scss/_fonts.scss scss/_reset.scss scss/_typography.scss dist/",
     "clean": "rm -rf dist",
     "dist": "npm run clean && npm run build",
     "release:ci": "release-it --ci",
