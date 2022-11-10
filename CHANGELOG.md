@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/DevoInc/genesys-base-styles/compare/v1.1.1...v1.2.0) (2022-11-10)
+
+
+### Features
+
+* include extra files in distribution ([76ea56e](https://github.com/DevoInc/genesys-base-styles/commit/76ea56ebe98d6510ed08b9fdc96ecf57de8d9765))
+
 ### [1.1.1](https://github.com/DevoInc/genesys-base-styles/compare/v1.1.0...v1.1.1) (2022-10-04)
 
 
