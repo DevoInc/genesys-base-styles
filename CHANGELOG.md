@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.2.1](https://github.com/DevoInc/genesys-base-styles/compare/v1.2.0...v1.2.1) (2023-01-23)
+
+
+### Bug Fixes
+
+* wrong font used in Devo Font family ([d67bbe6](https://github.com/DevoInc/genesys-base-styles/commit/d67bbe61b7723ad6ae6aa1652ebbeb904f1caf65))
+
 ## [1.2.0](https://github.com/DevoInc/genesys-base-styles/compare/v1.1.1...v1.2.0) (2022-11-10)
 
 
