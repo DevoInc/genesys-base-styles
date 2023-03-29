@@ -3,6 +3,11 @@ name: release
 on:
   workflow_dispatch:
     inputs:
+      dry:
+        type: boolean
+        description: Dry-mode (simulate publish)?
+        default: true
+        required: true
       version:
         type: choice
         description: Select version to release
@@ -11,9 +16,10 @@ on:
           - minor
           - patch
           - auto
-          - dryRun
         default: auto
         required: true
+
+run-name: release ${{ github.event.inputs.version }}${{ github.event.inputs.dry == 'true' && ' (--dry-run)' || '' }}
 
 env:
   NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
@@ -48,22 +54,6 @@ jobs:
         run: |
           git config --global user.name 'Devo GitHub Action'
           git config --global user.email 'desa@devo.com'
-      - name: Publish major
-        if: ${{ github.event.inputs.version == 'major' }}
-        run: npm run release:ci -- ${{ github.event.inputs.version }}
 
-      - name: Publish minor
-        if: ${{ github.event.inputs.version == 'minor' }}
-        run: npm run release:ci -- ${{ github.event.inputs.version }}
-
-      - name: Publish patch
-        if: ${{ github.event.inputs.version == 'patch' }}
-        run: npm run release:ci -- ${{ github.event.inputs.version }}
-
-      - name: Publish auto
-        if: ${{ github.event.inputs.version == 'auto' }}
-        run: npm run release:ci
-
-      - name: Publish dryRun
-        if: ${{ github.event.inputs.version == 'dryRun' }}
-        run: npm run release
+      - name: Publish ${{ github.event.inputs.version }}${{ github.event.inputs.dry == 'true' && ' (--dry-run)' || '' }}
+        run: npm run release:ci -- ${{ github.event.inputs.version != 'auto' && github.event.inputs.version || '' }}${{ github.event.inputs.dry == 'true' && ' --dry-run' || '' }}
