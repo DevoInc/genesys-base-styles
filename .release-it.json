@@ -1,6 +1,8 @@
 {
   "plugins": {
     "@release-it/conventional-changelog": {
+      "infile": "CHANGELOG.md",
+      "header": "# Changelog",
       "preset": {
         "name": "conventionalcommits",
         "types": [
@@ -12,11 +14,36 @@
             "type": "fix",
             "section": "Bug Fixes"
           },
-          {}
+          {
+            "type": "vuln",
+            "section": "Vulnerabilities"
+          },
+          {
+            "type": "chore",
+            "hidden": true
+          },
+          {
+            "type": "docs",
+            "hidden": true
+          },
+          {
+            "type": "style",
+            "hidden": true
+          },
+          {
+            "type": "refactor",
+            "hidden": true
+          },
+          {
+            "type": "perf",
+            "hidden": true
+          },
+          {
+            "type": "test",
+            "hidden": true
+          }
         ]
-      },
-      "infile": "CHANGELOG.md",
-      "header": "# Changelog"
+      }
     }
   },
   "github": {
