@@ -8,45 +8,37 @@
 */
 
 @font-face {
-  font-family: $devo-font;
-  src: url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansLight.woff") format("woff"),
-  url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansLight.woff2") format("woff2");
+  font-family: $devo-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/museo-sans/MuseoSansLight.woff") format("woff"),
+    url("#{$root-path}/#{$fonts-path}/museo-sans/MuseoSansLight.woff2") format("woff2");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $devo-font;
-  src: url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansRegular.eot");
-  src: url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansRegular.woff") format("woff"),
-  url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansRegular.ttf") format("truetype");
+  font-family: $devo-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/museo-sans/MuseoSansRegular.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $devo-font;
-  src: url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansMedium.eot");
-  src: url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansMedium.woff") format("woff"),
-  url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansMedium.ttf") format("truetype");
+  font-family: $devo-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/museo-sans/MuseoSansMedium.woff") format("woff");
   font-weight: normal; // 500, 400
   font-style: normal;
 }
 
 @font-face {
-  font-family: $devo-font;
-  src: url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansBold.eot");
-  src: url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansBold.woff") format("woff"),
-  url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansBold.ttf") format("truetype");
+  font-family: $devo-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/museo-sans/MuseoSansBold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $devo-font;
-  src: url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansBlack.eot");
-  src: url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansBlack.woff") format("woff"),
-  url("#{$root-path}/#{$fonts-path}/museo-sans-font/MuseoSansBlack.ttf") format("truetype");
+  font-family: $devo-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/museo-sans/MuseoSansBlack.woff") format("woff");
   font-weight: 900;
   font-style: normal;
 }
@@ -62,19 +54,17 @@
 // Thin - Poppins
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Thin.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Thin.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Thin.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Thin.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ThinItalic.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ThinItalic.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ThinItalic.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-ThinItalic.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-ThinItalic.woff") format("woff");
   font-weight: 100;
   font-style: italic;
 }
@@ -82,19 +72,17 @@
 // ExtraLight - Poppins
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ExtraLight.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ExtraLight.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ExtraLight.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-ExtraLight.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ExtraLightItalic.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ExtraLightItalic.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ExtraLightItalic.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-ExtraLightItalic.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-ExtraLightItalic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
 }
@@ -102,19 +90,17 @@
 // Light - Poppins
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Light.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Light.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Light.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Light.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-LightItalic.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-LightItalic.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-LightItalic.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-LightItalic.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
 }
@@ -122,19 +108,17 @@
 // Regular - Poppins
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Regular.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Regular.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Regular.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Regular.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Italic.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Italic.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Italic.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Italic.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Italic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
 }
@@ -142,19 +126,17 @@
 // Medium - Poppins
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Medium.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Medium.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Medium.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Medium.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-MediumItalic.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-MediumItalic.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-MediumItalic.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-MediumItalic.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
 }
@@ -162,19 +144,17 @@
 // SemiBold - Poppins
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-SemiBold.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-SemiBold.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-SemiBold.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-SemiBold.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-SemiBoldItalic.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-SemiBoldItalic.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-SemiBoldItalic.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-SemiBoldItalic.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
 }
@@ -182,19 +162,17 @@
 // Bold - Poppins
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Bold.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Bold.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Bold.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Bold.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-BoldItalic.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-BoldItalic.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-BoldItalic.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-BoldItalic.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-BoldItalic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
 }
@@ -202,19 +180,17 @@
 // ExtraBold - Poppins
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ExtraBold.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ExtraBold.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ExtraBold.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-ExtraBold.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ExtraBoldItalic.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ExtraBoldItalic.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-ExtraBoldItalic.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-ExtraBoldItalic.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-ExtraBoldItalic.woff") format("woff");
   font-weight: 800;
   font-style: italic;
 }
@@ -222,19 +198,17 @@
 // Black - Poppins
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Black.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Black.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-Black.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Black.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $poppins-font;
-  src: url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-BlackItalic.ttf") format("truetype"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-BlackItalic.woff2") format("woff2"),
-  url("#{$root-path}/#{$fonts-path}/poppins-font/Poppins-BlackItalic.woff") format("woff");
+  font-family: $poppins-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/poppins/Poppins-BlackItalic.woff2") format("woff2"),
+    url("#{$root-path}/#{$fonts-path}/poppins/Poppins-BlackItalic.woff") format("woff");
   font-weight: 900;
   font-style: italic;
 }
@@ -247,25 +221,25 @@
 */
 
 @font-face {
-  font-family: $mono-font;
-  src: url("#{$root-path}/#{$fonts-path}/jet-brains-mono-font/JetBrainsMono-Regular.woff2"),
-  url("#{$root-path}/#{$fonts-path}/jet-brains-mono-font/JetBrainsMono-Regular.ttf") format("truetype");
+  font-family: $mono-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/jet-brains-mono/JetBrainsMono-Regular.woff2"),
+    url("#{$root-path}/#{$fonts-path}/jet-brains-mono/JetBrainsMono-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $mono-font;
-  src: url("#{$root-path}/#{$fonts-path}/jet-brains-mono-font/JetBrainsMono-Medium.woff2"),
-  url("#{$root-path}/#{$fonts-path}/jet-brains-mono-font/JetBrainsMono-Medium.ttf") format("truetype");
+  font-family: $mono-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/jet-brains-mono/JetBrainsMono-Medium.woff2"),
+    url("#{$root-path}/#{$fonts-path}/jet-brains-mono/JetBrainsMono-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: $mono-font;
-  src: url("#{$root-path}/#{$fonts-path}/jet-brains-mono-font/JetBrainsMono-Bold.woff2"),
-  url("#{$root-path}/#{$fonts-path}/jet-brains-mono-font/JetBrainsMono-Bold.ttf") format("truetype");
+  font-family: $mono-font-name;
+  src: url("#{$root-path}/#{$fonts-path}/jet-brains-mono/JetBrainsMono-Bold.woff2"),
+    url("#{$root-path}/#{$fonts-path}/jet-brains-mono/JetBrainsMono-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
