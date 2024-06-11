@@ -1,5 +1,6 @@
 // -------------------------- TYPOGRAPHY - BASE ----------------------------- //
 
+
 html {
   font-size: 0.625rem;
 }
@@ -13,5 +14,5 @@ input,
 textarea,
 select,
 button {
-  font-family: "Devo Font", sans-serif;
+  font-family: $devo-font;
 }
