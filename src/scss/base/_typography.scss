@@ -14,5 +14,43 @@ input,
 textarea,
 select,
 button {
-  font-family: $devo-font;
+  font-family: $devo-font-family;
+}
+
+pre,
+code,
+kbd,
+samp {
+  font-family: $mono-font-family;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  outline: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
+strong,
+b {
+  font-weight: bold;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+ul,
+ol {
+  margin: 0;
+}
+
+ol {
+  list-style-type: decimal;
 }
