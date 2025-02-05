@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/DevoInc/genesys-base-styles/compare/v2.0.1...v2.1.0) (2025-02-05)
+
+
+### Features
+
+* **fonts:** add new fonts eot and ttf Museo Sans ([9216d76](https://github.com/DevoInc/genesys-base-styles/commit/9216d766905f6457f825e7a05802e7ff764c0cad))
+
 ### [2.0.1](https://github.com/DevoInc/genesys-base-styles/compare/v2.0.0...v2.0.1) (2024-06-28)
 
 ## [2.0.0](https://github.com/DevoInc/genesys-base-styles/compare/v1.2.1...v2.0.0) (2024-06-21)
