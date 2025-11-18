@@ -26,8 +26,8 @@
   "author": "Devo Inc.",
   "license": "ISC",
   "devDependencies": {
-    "@release-it/conventional-changelog": "^5.1.0",
-    "release-it": "^15.4.1",
+    "@release-it/conventional-changelog": "^10.0.2",
+    "release-it": "^19.0.6",
     "sass": "^1.54.8",
     "uglifycss": "^0.0.29"
   },
